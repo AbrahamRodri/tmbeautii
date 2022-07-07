@@ -1,3 +1,124 @@
-body{
-    color: red
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Spectral', serif;
+    
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    background-color: #e9dfff;
+}
+
+.nav__Container{
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 24px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav__links{
+    
+}
+
+.nav__link{
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #7342d6;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.nav__link--Book{
+    border:2px solid #7342d6;
+    border-radius: 4px;
+    transition: all 300ms ease;
+}
+
+.nav__link--Book:hover{
+    text-decoration: none;
+    color:white;
+    background-color: #7342d6;
+}
+
+.logo{
+    height:100%;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*about me , book*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    margin: auto;
+    max-width:1200px;
+}
+.book_Img-Container{
+    display:flex;
+    margin:0 auto;
+}
+
+.Book_Img{
+    width:100%;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.aboutMe-Title{
+    padding-bottom: 40px;
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.aboutMe-Text{
+    padding-bottom: 40px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutMe-Links{
+    display:flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.aboutMe-Link{
+    margin: 0 auto;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#Book{
+    background-color: #b9aed4;
 }
